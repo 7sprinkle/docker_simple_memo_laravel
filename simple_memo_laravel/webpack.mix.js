@@ -12,7 +12,5 @@ const mix = require("laravel-mix");
  */
 
 mix.js("resources/js/app.js", "public/js")
-    // ----- ここから追加する ------
     .js("resources/js/all.js", "public/js")
-    // ----- ここまで追加する ------
     .sass("resources/sass/app.scss", "public/css");
